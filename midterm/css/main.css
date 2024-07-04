@@ -33,6 +33,23 @@ h1 {
 
 nav li {
     display: inline-block;  /* adjusts the nav items in a row horizontally */
+    width: 30%;/* sets the width for each item  */
+    text-align: center; /* aligns the text horizontally in center  */
+    border-right: 1px solid black; /* adds a black border in each list item  */
+}
+
+nav ul {
+    list-style-type: none;
+    /* removes the bullets from ul list  */
+}
+
+nav li:last-child {
+    border-right: none;
+    /* in the navigation menu it remove the border from last item  */
+}
+
+nav li {
+    display: inline-block;  /* adjusts the nav items in a row horizontally */
     width: 30%;/* sets the wisth for each item  */
     text-align: center; /* aligns the text horizontally in center  */
     border-right: 1px solid black; /* adds a black border in each list item  */
@@ -48,3 +65,15 @@ nav li:last-child {
     /* in the navigation menu it remove the border from last item  */
 }
 
+a {
+    text-decoration: none; /* removes the underline from links */
+    color: rgba(148, 12, 155, 0.961); /* changes the color of links */
+}
+
+.image-inline {
+    /* floats the image to left and doing all other changes to wrap the text around image  */
+    float: left;
+    width: 260px;
+    height: 250px;
+    margin-right: 15px;
+}
