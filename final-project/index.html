@@ -9,6 +9,7 @@
     <script src="https://kit.fontawesome.com/a9bdc44a67.js" crossorigin="anonymous"></script>
    
 <!-- for linking of css page to do styling -->
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -31,15 +32,17 @@
                </div>
 
             <div class="search-bar">
+                <form action="index.html" method="get">
                  <input type="text" placeholder="Search" name="search">
                   <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                </form>
             </div>
         </div>
   
     </header>
 <!-- welcome section with banner image and paragraph -->
-        <section>
-            <div class="welcome-page">
+        <section class="welcome-page">
+            <div class="wrapper">
             <img src="images/main-banner.jpg" alt="main welcome page" class="main-banner">
             <h1>Welcome To Three Star Media</h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore mollitia dicta, repellendus dolorum numquam excepturi quasi beatae dolore possimus error ad, praesentium autem incidunt consequuntur sit! Modi unde ut enim!</p>
@@ -50,8 +53,8 @@
             
         </section>
 <!-- about us section describes information-->
-        <section>
-            <div class="about-us-page">
+        <section class="about-us-page">
+            <div class="wrapper">
             <img src="images/about-us.jpg" alt="about page" class="abt">
             <h2> About Us</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque et, inventore mollitia incidunt quibusdam doloribus eveniet qui cumque deserunt nihil officiis velit? Temporibus aliquid ullam recusandae quod sapiente vel laborum.</p>
@@ -61,7 +64,7 @@
             </div>
         </section>
 
-        <section>
+        <section class="services">
             <div class="wrapper">
             <!-- in services section all the items are included which is  denoted below with classes -->
             <h2> Our Services</h2>
@@ -125,7 +128,7 @@
             
         </section>
 <!-- our vision section including heading,image,paragraph and link from fontawesome.com -->
-        <section>
+        <section class="vision">
             <div class="wrapper">
                 <h2>Our Vision</h2>
                 <img src="images/vision.jpg" alt="vision" class="vis">
@@ -137,11 +140,12 @@
         </section>
 
         <article>
+            <section class="team">
             <div class="wrapper">
                 <!-- team section -->
                 <h2>Our Team</h2>
                 <!-- first team member: John Doe image and information about him -->
-                <section>
+                <section class="team-member">
                 <img src="images/john.jpg" alt="John Doe " class="jd">
                 <h3>John Doe</h3>
                 <h4>CEO and Co-owner</h4>
@@ -150,7 +154,7 @@
             </section>
 
             <!-- second team member: Bob Rite image and information about him -->
-            <section>
+            <section class="team-member">
                <img src="images/bob.jpg"  alt="Bob Rite" class="br">
                <h3>Bob Rite</h3>
                <h4>CFO and Co-owner</h4>
@@ -158,6 +162,7 @@
                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quae, eius autem quo consectetur labore nam officiis eos dignissimos numquam mollitia tempora, obcaecati quos cumque est adipisci explicabo, corporis voluptatem!</p>
             </section>
             </div>
+            </section>
         </article>
 
         <!-- adding form of contact us in which name,email and message is mentioned  -->
