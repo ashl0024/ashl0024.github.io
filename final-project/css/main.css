@@ -1,0 +1,177 @@
+/* changing the text of whole document by taking font from google fonts */
+
+.body {
+    font-family: 'Open Sans', sans-serif;
+    color: #222;
+    background-color: white;
+}
+
+/* for the container maximum width is 1200px  */
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px; /* Adjust this padding for spacing inside the container */
+}
+
+/* Bleeding Backgrounds */
+.welcome-page,
+.about-us-page,
+.vision,
+.team,
+.contact {
+    background-color: #ffe6ac;
+    padding: 40px 20px; /* Space around the content inside the bleeding background */
+}
+
+/* for header changing the colorin background and adding the padding to it */
+header {
+    background-color: #222;
+    padding: 15px ;
+}
+
+/* setting the navigation bar by adding flex properties to show in line  */
+.topnav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+/* targeting the a tag for changing colors in navigation and also hiding the line from bottom */
+.topnav a {
+    color:#c78c06 ;
+    text-decoration: none;
+}
+
+/* adjusting search bar */
+.search-bar {
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+}
+
+/* targeting the icon of search bar and changing its color */
+.search-bar i {
+    margin-left: 10px;
+    color: #c78c06;
+}
+
+/* below  changing the color of heading, paragraph and adjusting the button in  welcome page */
+.welcome-page h1 {
+  color:white;
+}
+
+.welcome-page p {
+  color: white;
+}
+
+.welcome-page button {
+    background-color: #c78c06;
+    color: #222;
+    border: none;
+    padding: 10px 20px;
+}
+
+/* below in about us page the color and margins of headings,paragraphs area adjusted */
+.about-us-page h2 {
+    color: #222;
+    margin-bottom: 20px;
+}
+
+.about-us-page p {
+    margin-bottom: 10px;
+}
+
+/* for the services in the class .services all the headings, pargraph and adjustment of button is targeted according to mockup given */
+.services {
+    background-color:#ffe6ac ;
+}
+
+.services h2 {
+    color: #222;
+}
+
+.services h3 {
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.services p {
+    margin-bottom: 20px;
+}
+
+.services button {
+    background-color: #222;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+/* in vision section heading provided a white color and adjusted the bootom margians */
+.vision h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.vision p{
+    color: white;
+}
+
+/* changing the button according to needed design by adding colors, padding */
+.vision button{
+    background-color:rgb(14, 14, 68);
+    color: white;
+    border: 5px;
+    padding: 15px;
+}
+
+/* in team class the text made black in color */
+.team-member h3 {
+    color: #222;
+}
+
+
+/* contact form have headings in black color which represent h1 and h3 */
+.contact h1,
+.contact h3 {
+    color: #222;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* changing the size of textarea and input by adding properties like input, textarea */
+.contact form input,
+.contact form textarea {
+    padding: 10px;
+    border: 1px solid #222;
+    border-radius: 4px;
+}
+
+/* button for contact form changed with applying color and padding properties */
+.contact form button {
+    background-color:#222;
+    color: #c78c06;
+    border: none;
+    padding: 5px;
+}
+
+/* using border property to specifies solid border line for table*/
+ table th, td{
+    border: 1px solid;
+    
+}
+/* adjust the color to given color for table head */
+th{
+    background-color: #ffe6ac;
+}
+
+/* footer adjustments in background coor and aligning its position to left */
+footer {
+    background-color: #222;
+    color: #c78c06;
+    text-align:left;
+    padding: 30px 0;
+}
